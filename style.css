@@ -12,6 +12,7 @@ body {
 .anchor {
     text-decoration: none;
     color: #ADB5BD;
+    font-family: monospace;
 }
 
 
@@ -34,8 +35,25 @@ body {
     padding: 1em;
 }
 
+#contato{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
+}
+
+.contato li{
+
+    font-style: italic;
+}
+
 .skills h3{
 
    font-size: 1.6em;
    font-family:'Montserrat', sans-serif;
+}
+
+.skills li{
+
+    font-size: 1.2em;
+    font-family: monospace;
 }
