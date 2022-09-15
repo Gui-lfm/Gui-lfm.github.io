@@ -1,58 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio - Guilherme Lucena</title>
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-       <h4> Indice: 
+      <nav>
+        <h4 class="nav__title">Indice:</h4>
         <ol>
-            <li><a href="#sobre">sobre</a></li>
-            <li><a href="#contato">Contato profissional</a></li>
-            <li><a href="#habilidades">habilidades</a></li>
-         
+          <li><a class="anchor" href="#sobre">sobre</a></li>
+          <li><a class="anchor" href="#contato">Contato profissional</a></li>
+          <li><a class="anchor" href="#habilidades">habilidades</a></li>
         </ol>
-       </h4>
+      </nav>
     </header>
 
     <!-- sobre -->
-    <h1>Guilherme Lucena</h1>
-    <img src="./img/guilherme-lucena.jpeg" alt="foto de perfil de Guilherme" width="300px">
-    <p id="sobre">Olá, me chamo Guilherme Lucena, tenho 27 anos, nascido e crescido em São Paulo/SP. Sou formado em História pela Universidade de São Paulo(USP), mas sempre tive carinho pela área de tecnologia.
-        <br><br> 
-    Após o final da minha formação acadêmica, comecei a estudar o básico de programação, e atualmente estou estudando desenvolvimento web pela <strong>Trybe</strong> na turma 27, iniciada em Setembro de 2022.</p>
+    <h1 class="about__name">Guilherme Lucena</h1>
+    <img
+      class="about__picture"
+      src="./img/guilherme-lucena.jpeg"
+      alt="foto de perfil de Guilherme"
+      width="300px"
+    />
+    <p class="about__text" id="sobre">
+      Olá, me chamo Guilherme Lucena, tenho 27 anos, nascido e crescido em São
+      Paulo/SP. Sou formado em História pela Universidade de São Paulo(USP), mas
+      sempre tive carinho pela área de tecnologia. <br /><br />
+      Após o final da minha formação acadêmica, comecei a estudar o básico de
+      programação, e atualmente estou estudando desenvolvimento web pela
+      <strong>Trybe</strong> na turma 27, iniciada em Setembro de 2022.
+    </p>
 
     <!-- contato -->
-    <h2 id="contato">Contato profissional:</h2>
-    <ul>
+    <section class="contato">
+      <h2 id="contato">Contato profissional:</h2>
+      <ul>
         <li>
-            <em><a href="https://www.linkedin.com/in/guilherme-lucena-fm94/" target="_blank">Linkedin</a></em>
+          <a
+            class="anchor"
+            href="https://www.linkedin.com/in/guilherme-lucena-fm94/"
+            target="_blank"
+            >Linkedin</a
+          >
         </li>
         <li>
-            <em><a href="https://github.com/Gui-lfm" target="_blank">Github</a></em>
+          <a class="anchor" href="https://github.com/Gui-lfm" target="_blank"
+            >Github</a
+          >
         </li>
-    </ul>
-
-    <!-- competências  -->
-    <section id="habilidades">
-        <h3>Soft-skills</h3>
-        <ul>
-            <li>Empatia</li>
-            <li>Comunicação</li>
-            <li>Colaboração</li>
-        </ul>
-        <h3>Hard-skills</h3>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li><strong>React</strong></li>
-        </ul>
+      </ul>
     </section>
     
-    <p><strong>Observação</strong>: Este portfólio não está na sua versão final, sendo atualizado no decorrer da minha formação na Trybe.</p>
-</body>
+    <!-- competências  -->
+    <section class="skills" id="habilidades">
+      <h3>Soft-skills</h3>
+      <ul>
+        <li>Empatia</li>
+        <li>Comunicação</li>
+        <li>Colaboração</li>
+      </ul>
+      <h3>Hard-skills</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li><strong>React</strong></li>
+      </ul>
+    </section>
+
+    <p>
+      <strong>Observação</strong>: Este portfólio não está na sua versão final,
+      sendo atualizado no decorrer da minha formação na Trybe.
+    </p>
+  </body>
 </html>

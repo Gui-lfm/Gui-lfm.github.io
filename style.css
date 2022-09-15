@@ -1,0 +1,41 @@
+body {
+  font-size: 16px;
+  background-color: #343a40;
+  color: #e9ecef;
+}
+
+.nav__title {
+  color: #ced4da;
+  font-size: 1.5em;
+}
+
+.anchor {
+    text-decoration: none;
+    color: #ADB5BD;
+}
+
+
+
+.about__name{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+
+.about__picture{
+
+    border-radius: 100%;
+}
+
+.about__text{
+
+    font-family: monospace;
+    text-align: justify;
+    padding: 1em;
+}
+
+.skills h3{
+
+   font-size: 1.6em;
+   font-family:'Montserrat', sans-serif;
+}
