@@ -1,59 +1,69 @@
+/* variaveis de cor */
+
+:root {
+  --cor-background: #438eba;
+  --cor-link: #cbd0d3;
+  --cor-titulo: #393e41;
+  --cor-texto: #e1e5e8;
+}
+
 body {
   font-size: 16px;
-  background-color: #343a40;
-  color: #e9ecef;
+  background-color: var(--cor-background);
+}
+
+.nav__title,
+.about__name,
+.contato h2,
+.skills h3 {
+  color: var(--cor-titulo);
 }
 
 .nav__title {
-  color: #ced4da;
   font-size: 1.5em;
 }
 
 .anchor {
-    text-decoration: none;
-    color: #ADB5BD;
-    font-family: monospace;
+  text-decoration: none;
+  color: var(--cor-link);
+  font-family: monospace;
 }
 
-
-
-.about__name{
-
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
+.about__name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
 }
 
-.about__picture{
-
-    border-radius: 100%;
+.about__picture {
+  border-radius: 100%;
 }
 
-.about__text{
-
-    font-family: monospace;
-    text-align: justify;
-    padding: 1em;
+.about__text,
+.skills li {
+  color: var(--cor-texto);
 }
 
-#contato{
-
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.8em;
+.about__text {
+  font-family: monospace;
+  text-align: justify;
+  padding: 1em;
 }
 
-.contato li{
-
-    font-style: italic;
+#contato {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8em;
 }
 
-.skills h3{
-
-   font-size: 1.6em;
-   font-family:'Montserrat', sans-serif;
+.contato li {
+  font-style: italic;
 }
 
-.skills li{
+.skills h3 {
+  font-size: 1.6em;
+  font-family: "Montserrat", sans-serif;
+}
 
-    font-size: 1.2em;
-    font-family: monospace;
+.skills li {
+  font-size: 1.2em;
+  font-family: monospace;
 }
